@@ -1,0 +1,13 @@
+{
+  "courseName": "Data Structures",
+  "studentsPerformance": [
+    { "name": "Sabitha", "marks": 88, "progress": 80 },
+    { "name": "Shalini", "marks": 72, "progress": 65 }
+  ],
+  "quizCompletion": [
+    { "student": "Sabitha", "quiz": "Quiz 1", "completed": 18, "total": 20 },
+    { "student": "Sabitha", "quiz": "Quiz 2", "completed": 15, "total": 20 },
+    { "student": "Shalini", "quiz": "Quiz 1", "completed": 16, "total": 20 },
+    { "student": "Shalini", "quiz": "Quiz 2", "completed": 12, "total": 20 }
+  ]
+}

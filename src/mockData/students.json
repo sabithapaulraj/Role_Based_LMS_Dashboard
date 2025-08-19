@@ -1,0 +1,18 @@
+[
+  {
+    "username": "sabitha",
+    "fullName": "Sabitha Paulraj",
+    "enrollments": [
+      { "courseId": "CS101", "progress": 80, "grade": 88 },
+      { "courseId": "CS102", "progress": 85, "grade": 90 }
+    ]
+  },
+  {
+    "username": "shalini",
+    "fullName": "Shalini Kannan",
+    "enrollments": [
+      { "courseId": "CS101", "progress": 65, "grade": 72 },
+      { "courseId": "CS102", "progress": 70, "grade": 78 }
+    ]
+  }
+]

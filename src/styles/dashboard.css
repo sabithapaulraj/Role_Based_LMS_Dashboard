@@ -1,0 +1,32 @@
+/* Centered dashboard grid layout */
+.dashboard {
+  width: 90%;
+  max-width: 1200px;
+  margin: 90px auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+.dashboard-title {
+  grid-column: 1 / span 2;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+.dashboard > .widget {
+  min-width: 0;
+}
+@media (max-width: 1024px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 80px;
+  }
+  .dashboard-title {
+    grid-column: 1;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}

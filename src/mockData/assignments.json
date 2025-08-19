@@ -1,0 +1,22 @@
+[
+  {
+    "courseId": "CS101",
+    "assignmentId": "A1",
+    "assignmentName": "Implement Stack",
+    "dueDate": "2025-08-25",
+    "submissions": [
+  { "username": "sabitha", "status": "submitted", "grade": 95 },
+  { "username": "shalini", "status": "pending", "grade": null }
+    ]
+  },
+  {
+    "courseId": "CS102",
+    "assignmentId": "A1",
+    "assignmentName": "Sorting Project",
+    "dueDate": "2025-08-28",
+    "submissions": [
+  { "username": "sabitha", "status": "pending", "grade": null },
+  { "username": "shalini", "status": "submitted", "grade": 90 }
+    ]
+  }
+]

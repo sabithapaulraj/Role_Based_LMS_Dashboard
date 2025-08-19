@@ -1,0 +1,29 @@
+[
+  {
+    "courseId": "CS101",
+    "quizId": "Q1",
+    "quizName": "Stacks & Queues",
+    "scores": [
+  { "username": "sabitha", "score": 90, "completed": true },
+  { "username": "shalini", "score": 80, "completed": true }
+    ]
+  },
+  {
+    "courseId": "CS101",
+    "quizId": "Q2",
+    "quizName": "Trees",
+    "scores": [
+  { "username": "sabitha", "score": 85, "completed": true },
+  { "username": "shalini", "score": 75, "completed": true }
+    ]
+  },
+  {
+    "courseId": "CS102",
+    "quizId": "Q1",
+    "quizName": "Sorting Algorithms",
+    "scores": [
+  { "username": "sabitha", "score": 92, "completed": true },
+  { "username": "shalini", "score": null, "completed": false }
+    ]
+  }
+]

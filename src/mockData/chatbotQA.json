@@ -1,0 +1,35 @@
+{
+  "admin": [
+    { "question": "How is my class doing this week?", "answer": "Overall, most students performed well in the last quiz." },
+    { "question": "Show quiz completion", "answer": "Here is the quiz completion chart.", "chartType": "pie", "datasetKey": "quizCompletion" }
+    ,{ "question": "Which student needs the most help?", "answer": "Shalini needs extra support in Sorting Algorithms." }
+    ,{ "question": "List all courses", "answer": "Courses offered: Data Structures, Algorithms." }
+    ,{ "question": "Show course progress", "answer": "Here are the latest admin metrics for Sabitha and Shalini.", "chartType": "bar", "datasetKey": "adminMetrics" }
+  ],
+  "student": [
+    { "username": "sabitha", "question": "What is my progress?", "answer": "Sabitha, you are on track with 90% course completion." },
+    { "username": "sabitha", "question": "Show my weekly progress", "answer": "Here is your weekly quiz performance chart.", "chartType": "line", "datasetKey": "studentProgress" },
+    { "username": "sabitha", "question": "Which quizzes have I not completed?", "answer": "You have completed all your quizzes. Great job!" },
+    { "username": "sabitha", "question": "Show my grades", "answer": "Here is a summary of your grades for all quizzes.", "chartType": "bar", "datasetKey": "studentGrades" },
+    { "username": "sabitha", "question": "List my assignments", "answer": "You have assignments due in Algorithms and Data Structures." },
+    { "username": "sabitha", "question": "Who am I?", "answer": "You are Sabitha Paulraj, a student user in this LMS." },
+    { "username": "sabitha", "question": "List my courses", "answer": "You are enrolled in Data Structures and Algorithms." },
+    { "username": "sabitha", "question": "Show my assignment status", "answer": "You submitted 'Implement Stack' and have 'Sorting Project' pending." },
+    { "username": "sabitha", "question": "What is my best quiz score?", "answer": "Your best quiz score is 92 in Sorting Algorithms." },
+    { "username": "sabitha", "question": "Which course am I performing best in?", "answer": "You are performing best in Algorithms." },
+    { "username": "sabitha", "question": "Do I have any overdue assignments?", "answer": "You have no overdue assignments. Keep it up!" },
+    { "username": "sabitha", "question": "How many quizzes have I completed?", "answer": "You have completed all 3 quizzes." },
+    { "username": "shalini", "question": "What is my progress?", "answer": "Shalini, you are on track with 80% course completion." },
+    { "username": "shalini", "question": "Show my weekly progress", "answer": "Here is your weekly quiz performance chart.", "chartType": "line", "datasetKey": "studentProgress" },
+    { "username": "shalini", "question": "Which quizzes have I not completed?", "answer": "You have not completed the Sorting Algorithms quiz." },
+    { "username": "shalini", "question": "Show my grades", "answer": "Here is a summary of your grades for all quizzes.", "chartType": "bar", "datasetKey": "studentGrades" },
+    { "username": "shalini", "question": "List my assignments", "answer": "You have assignments due in Algorithms and Data Structures." }
+    ,{ "username": "shalini", "question": "Who am I?", "answer": "You are Shalini Kannan, a student user in this LMS." }
+    ,{ "username": "shalini", "question": "List my courses", "answer": "You are enrolled in Data Structures and Algorithms." }
+    ,{ "username": "shalini", "question": "Show my assignment status", "answer": "You have 'Implement Stack' pending and submitted 'Sorting Project'." }
+    ,{ "username": "shalini", "question": "What is my best quiz score?", "answer": "Your best quiz score is 80 in Stacks & Queues." }
+    ,{ "username": "shalini", "question": "Which course am I performing best in?", "answer": "You are performing best in Data Structures." }
+    ,{ "username": "shalini", "question": "Do I have any overdue assignments?", "answer": "You have 1 overdue assignment in Algorithms." }
+    ,{ "username": "shalini", "question": "How many quizzes have I completed?", "answer": "You have completed 2 out of 3 quizzes." }
+  ]
+}

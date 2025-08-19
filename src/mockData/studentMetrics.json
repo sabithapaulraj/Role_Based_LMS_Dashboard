@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "username": "alice",
+      "courses": [
+        { "course": "Data Structures", "marks": 88, "progress": 80 },
+        { "course": "Algorithms", "marks": 90, "progress": 85 }
+      ],
+      "quizHistory": [
+        { "quiz": "Quiz 1", "score": 90 },
+        { "quiz": "Quiz 2", "score": 85 }
+      ],
+      "deadlines": [
+        { "course": "Algorithms", "dueDate": "2025-08-25" }
+      ]
+    },
+    {
+      "username": "bob",
+      "courses": [
+        { "course": "Data Structures", "marks": 72, "progress": 65 },
+        { "course": "Algorithms", "marks": 78, "progress": 70 }
+      ],
+      "quizHistory": [
+        { "quiz": "Quiz 1", "score": 80 },
+        { "quiz": "Quiz 2", "score": 75 }
+      ],
+      "deadlines": [
+        { "course": "Data Structures", "dueDate": "2025-08-28" }
+      ]
+    }
+  ]
+}

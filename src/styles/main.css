@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+}
+
+/* App container with top header bar */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-content {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0;
+  color: #222;
+}
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 1.1rem;
+}
+.header-logout {
+  font-size: 1rem;
+  padding: 0.5rem 1.2rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.header-logout:hover {
+  background: #0056b3;
+}
+
+.dashboard {
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.widget {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 2px solid #0056b3;
+  outline-offset: 2px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+input {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .widget {
+    margin-bottom: 1rem;
+  }
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .recharts-responsive-container {
+    min-width: 250px;
+    overflow-x: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .dashboard {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dashboard {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+/* Improved chatbot floating button */
+/* Improved chatbot floating button - more modern look */
+/* Chatbot button: bigger circle, smaller label inside */
+.chatbot-float-btn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 999;
+  background: linear-gradient(135deg, #007bff 60%, #00c6ff 100%);
+  color: #fff;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  font-size: 2.7rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.22);
+  border: 3px solid #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.chatbot-float-btn:hover {
+  background: linear-gradient(135deg, #0056b3 60%, #00c6ff 100%);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.28);
+}
+.chatbot-float-btn .chatbot-icon {
+  font-size: 2.7rem;
+  margin-bottom: 0.1rem;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.18));
+}
+.chatbot-float-btn .chatbot-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 0.1rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.22);
+  letter-spacing: 0.5px;
+}
+
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 1001;
+  background: #f5f5f5;
+  color: #333;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}

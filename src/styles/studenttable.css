@@ -1,0 +1,47 @@
+/* QuizCompletionTable styling for admin dashboard */
+.quiz-completion-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Center and align the table nicely in the widget */
+.student-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.styled-table {
+  min-width: 340px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  overflow: hidden;
+  font-size: 1.02rem;
+}
+.styled-table th, .styled-table td {
+  padding: 0.85rem 1.2rem;
+  text-align: left;
+}
+.styled-table th {
+  background: #f5f7fa;
+  font-weight: 700;
+  color: #333;
+}
+.styled-table tr {
+  border-bottom: 1px solid #eee;
+}
+.styled-table tr:last-child {
+  border-bottom: none;
+}
+.styled-table td {
+  color: #222;
+}
+.styled-table tr:hover {
+  background: #f0f8ff;
+}

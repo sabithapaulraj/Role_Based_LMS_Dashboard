@@ -1,3 +1,70 @@
+/* Mobile responsiveness for screens below 620px */
+@media (max-width: 620px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .dashboard-container,
+  .card,
+  .widget,
+  .chatbot-modal {
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 8px;
+  }
+  .dashboard-widgets {
+    flex-direction: column !important;
+    gap: 12px;
+  }
+  .table {
+    font-size: 14px;
+    overflow-x: auto;
+    width: 100%;
+    display: block;
+  }
+  .chart-container {
+    width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+  }
+  .chatbot-modal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    max-width: 100vw;
+    height: 60vh;
+    min-height: 320px;
+    border-radius: 12px 12px 0 0;
+    margin: 0;
+    z-index: 9999;
+  }
+  .chatbot-messages {
+    max-height: 40vh;
+    overflow-y: auto;
+    padding-bottom: 60px;
+  }
+  .chatbot-input-area {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .role-selector,
+  .login-form {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+    padding: 16px;
+  }
+  h1, h2, h3 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
